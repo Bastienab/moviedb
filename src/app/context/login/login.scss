@@ -1,0 +1,33 @@
+.logo-login {
+  color: black;
+  font-weight: 100;
+  font-size: 1.5rem !important;
+}
+
+.container-login {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-login {
+  color: white;
+  padding:8px 16px 8px 16px !important;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: whitesmoke !important;
+  display: inline-flex;
+  margin-top: 16px!important;
+
+}
+
+.btn-login:hover {
+  color: lightgray;
+  background: whitesmoke;
+}

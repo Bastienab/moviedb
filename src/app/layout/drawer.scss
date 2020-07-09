@@ -1,0 +1,121 @@
+.MuiBadge-anchorOriginTopRightRectangle {
+  top: 10px !important;
+  right: 10px !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+}
+
+.menu-right {
+  display: flex;
+  align-items: center;
+}
+
+.mdb-appbar-title {
+  color: black;
+  font-weight: 100;
+  font-size: 1.2rem !important;
+  transition:  all 0.2s ease, transform 0.2s;
+}
+
+.mdb-appbar-title:hover {
+  font-size: 1.4rem !important;
+}
+
+.MuiDrawer-paper {  
+  background: black !important;
+  border-right: none !important;
+}
+.icons-drawer {
+  color: white ;
+  transition:  all 0.2s ease, transform 0.2s;
+}
+
+.drawerlinks {
+  color: white ;
+  transition:  all 0.2s ease, transform 0.2s;
+  margin-left: 8px;
+}
+
+.menu-buttons:hover {
+  .drawerlinks {
+    margin-left: 16px;
+  }
+}
+
+.MuiTreeItem-label {
+  transition:  all 0.2s ease, transform 0.2s;
+}
+
+.MuiTreeItem-label:hover {
+  margin-left: 8px;
+  color: white;
+}
+
+@keyframes drawerShake {
+  10% {
+    transform: translate3d(8px, 0, 0);
+  }
+}
+
+.MuiTreeView-root {
+  width: 100%;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.MuiListItemIcon-root {
+  min-width: 0 !important;
+}
+
+.icon-menu-1 {
+  cursor: pointer;
+  transition:  all 0.2s ease-in-out;
+  z-index: 9999;
+  color: black;
+  margin-right: 20px;
+}
+.icon-menu-2 {
+  cursor: pointer;
+  transition:  all 0.2s ease-in-out;
+  z-index: 9999;
+  color: black;
+  margin-right: 20px;
+}
+.icon-menu-1:hover {
+  width: 25px;
+  height: 25px;
+}
+.icon-menu-2:hover {
+  width: 25px;
+  height: 25px;
+}
+
+.socials {
+  position: fixed; 
+  bottom: 0;
+  right: 0; 
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 5%; 
+  background-color: black;
+  backdrop-filter: blur(15px);
+  height: 130px;
+  padding: 8px 0 8px 0;
+  z-index: 1;
+}
+
+.icons-socials {
+  color: white;
+  margin: 10px 0 8px 0;
+  font-size: 1rem;
+  transition:  all 0.1s ease-in-out;
+}
+
+.icons-socials:hover {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
